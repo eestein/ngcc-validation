@@ -232,10 +232,12 @@
   version "10.0.0-next.4"
   resolved "https://codeload.github.com/angular/animations-builds/tar.gz/ab586a074d1ab824ae3f314d616e6dbf7e28df86"
 
-"@angular/cdk@9.2.4":
-  version "9.2.4"
-  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-9.2.4.tgz#8413958bd275e4c34be3b96f56444671dd30ba93"
-  integrity sha512-iw2+qHMXHYVC6K/fttHeNHIieSKiTEodVutZoOEcBu9rmRTGbLB26V/CRsfIRmA1RBk+uFYWc6UQZnMC3RdnJQ==
+"@angular/cdk@10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-10.0.0.tgz#da9ad61e4916d0a1c9d57b817270c59b6f265260"
+  integrity sha512-Ug4Cj2ioxEzsm7co6sLGnPa1LINbeKdN/IeCCwZiSDFp555O8TLEwcCVqQz8KKbo/YLfaWOcvGRSrlxEhyAM/A==
+  dependencies:
+    tslib "^2.0.0"
   optionalDependencies:
     parse5 "^5.0.0"
 
@@ -365,20 +367,26 @@
     glob "7.1.2"
     yargs "13.1.0"
 
-"@angular/material-experimental@9.2.4":
-  version "9.2.4"
-  resolved "https://registry.yarnpkg.com/@angular/material-experimental/-/material-experimental-9.2.4.tgz#a3b1a4671513795f9b18fbea65b09c6d3e70817e"
-  integrity sha512-Mrel4AxOxru3mnSQBPOiRYr0WkEnI6L+YmbUB1383tt5PysIIBlG9bWqQ4YhrJ+51xLU5uTTGAEkfek4wfe5uQ==
+"@angular/material-experimental@10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@angular/material-experimental/-/material-experimental-10.0.0.tgz#94a2be9243d48200d2688b68107387af68320e4d"
+  integrity sha512-wXN33o2/sUxzde6eBTir0C7FFkTc1c01XhAtChz2p+NSS29lOHP84TR+Cvavmwd9J5bCGmxYka6iFx1OfUq2Bw==
+  dependencies:
+    tslib "^2.0.0"
 
-"@angular/material-moment-adapter@9.2.4":
-  version "9.2.4"
-  resolved "https://registry.yarnpkg.com/@angular/material-moment-adapter/-/material-moment-adapter-9.2.4.tgz#4d3cfcd5c2b8914bcca4e70a46cf7ec127c14b40"
-  integrity sha512-V5xkL+YUec3nDGRaJB72mJTUtdUvGaG9WCQEdr45viDWFGjQaEpS6msuScBLp0PwsN8Wt0n69eZg0ULgxPBa5g==
+"@angular/material-moment-adapter@10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@angular/material-moment-adapter/-/material-moment-adapter-10.0.0.tgz#21830a6df12f9f88a1ac979ee1c87c585e0646e0"
+  integrity sha512-YTyvjYmYC3k6RJ9GD9zyT+p7EiYuKGhFSPkbWGAMZCMZyCuWpBIS+o/62LZ8RP6l4rYWKqW7KYbQ2cy5AZ8YCg==
+  dependencies:
+    tslib "^2.0.0"
 
-"@angular/material@9.2.4":
-  version "9.2.4"
-  resolved "https://registry.yarnpkg.com/@angular/material/-/material-9.2.4.tgz#2666ef606fbb88d60f8e2f18c5e4f94a3dd572d8"
-  integrity sha512-LkoTXE6B0slvMhvfZDdPWaz4yaYLkaAp5VSPunI9pxGsPxzqEV9e210wC1/sjG/76Nk8Ep7/2z9XKac8Q9bMwA==
+"@angular/material@10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-10.0.0.tgz#ecd83ade893b1501a9db5e2f98ab94015a9e7cee"
+  integrity sha512-u8uORUlDUYo8NlyXAw7BJdkvAXZiIQuSQ58a+RVlR37CGjI07vrECj4i4Z22XOjBGykvsKj0rhq/hCPzXy/RTQ==
+  dependencies:
+    tslib "^2.0.0"
 
 "@angular/platform-browser-dynamic@github:angular/platform-browser-dynamic-builds#a9d2e20a355e4e63b4bd3e9386d28541d4a3a2df":
   version "10.0.0-next.4"
@@ -14970,7 +14978,7 @@ tslib@1.11.1, tslib@^1.11.0, tslib@^1.11.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
   integrity sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
 
-tslib@2.0.0:
+tslib@2.0.0, tslib@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
   integrity sha512-lTqkx847PI7xEDYJntxZH89L2/aXInsyF2luSafe/+0fHOMjlBNXdH6th7f70qxLDhul7KZK0zC8V5ZIyHl0/g==
